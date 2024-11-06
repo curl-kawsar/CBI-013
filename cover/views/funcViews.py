@@ -1,4 +1,4 @@
-from app.models import Student
+from cover.models import Student
 from django.shortcuts import render
 def homePage(request):
     students = Student.objects.all()

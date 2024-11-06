@@ -1,5 +1,5 @@
 from django.views.generic import ListView
-from app.models import Student
+from cover.models import Student
 
 class StudentListView(ListView):
     """
